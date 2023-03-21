@@ -1,0 +1,41 @@
+site_name: dftworks
+site_url: https://docs.dftworks.com
+site_description: Documentation for dftworks
+
+nav:
+    - Home: index.md
+      
+theme:
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+
+  name: material
+  highlightjs: true
+  navigation_depth: 4
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  nav_style: dark
+
+  palette: 
+    - primary:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+copyright: Copyright &copy; 2019 - present dftworks. All Rights Reserved.
+
+markdown_extensions:
+  - tables
+  - attr_list
+
+extra_css:
+  - css/extra.css
