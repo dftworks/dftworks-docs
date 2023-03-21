@@ -1,3 +1,3 @@
 # dftworks-docs
 
-The documentation is prepared using `mkdocs`. Running `mkdocs serve` for dev mode.
+The documentation is created using mkdocs, and for development purposes, the command `mkdocs serve` is used to run the server.
